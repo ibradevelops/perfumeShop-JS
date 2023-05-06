@@ -1,0 +1,61 @@
+@media (max-width: 1240px) {
+  .hero {
+    flex-direction: column !important;
+  }
+  .hero .second__side {
+    padding-block: 6rem !important;
+  }
+}
+@media (max-width: 720px) {
+  .hero {
+    padding: none !important;
+  }
+  .first__side {
+    margin-bottom: 6rem !important;
+  }
+  .first__side .place-for-products {
+    grid-template-columns: 1fr !important;
+  }
+  .first__side #del-all-btn {
+    font-size: 4.2rem !important;
+  }
+  .second__side {
+    gap: 4rem !important;
+  }
+  .second__side #total-all {
+    font-size: 4.2rem !important;
+  }
+  .second__side .form {
+    gap: 4rem !important;
+  }
+  .second__side .form input,
+  .second__side .form #continue-btn {
+    font-size: 3.2rem;
+    padding: 1.4rem;
+  }
+  .second__side .form .first-span,
+  .second__side .form .second-span {
+    flex-direction: column !important;
+    gap: 4rem !important;
+  }
+}
+@media (max-width: 520px) {
+  .hero {
+    gap: 0rem !important;
+  }
+  .hero .second__side {
+    padding-block: 2rem !important;
+  }
+  .hero .second__side .form input,
+  .hero .second__side .form #continue-btn {
+    width: 75% !important;
+    margin: 0 auto !important;
+    font-size: 2rem !important;
+  }
+  .hero .second__side .form .title h1 {
+    font-size: 4.8rem !important;
+  }
+  .testimonials__section .about-testimonials .testimonial p {
+    font-size: 1.6rem !important;
+  }
+}/*# sourceMappingURL=cart-queries.css.map */
