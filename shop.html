@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <script defer src="js/shop.js" type="module"></script>
+    <title>Perfume Shop || Shop</title>
+  </head>
+  <body>
+    <header class="hero">
+      <a href="index.html">Go Back &larr;</a>
+      <h1>Our Products</h1>
+      <a href="cart.html">Your Cart &rarr;</a>
+    </header>
+    <div class="notification">
+      <p></p>
+    </div>
+    <div class="search__bar">
+      <div class="flex">
+        <label for="search-input">Search for product</label>
+        <div class="search-input__icon">
+          <input type="text" id="search-input" placeholder="Type here..." />
+          <ion-icon name="close-outline" class="close-icon hide"></ion-icon>
+        </div>
+      </div>
+      <span class="sorting-items">
+        <p>Sort from</p>
+        <select>
+          <option>Cheapest to Most Expensive</option>
+          <option>Most Expensive to Cheapest</option>
+        </select>
+        <button class="sort-btn">Sort</button>
+      </span>
+    </div>
+    <div class="product__list">
+      <h1 id="notification" class="hide"></h1>
+      <!-- <div class="product" id="item-1">
+        <img src="images/perfume-1.jpg" />
+        <div class="product-name">
+          Christian Dior <br />
+          Eau Sauvage
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$58</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-2">
+        <img src="images/perfume-2.jpg" />
+        <div class="product-name">
+          Yves Saint <br />
+          Laurent Kouros
+        </div>
+
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$20</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-3">
+        <img src="images/perfume-3.jpg" />
+        <div class="product-name">
+          Guerlain Habit <br />
+          Rouge
+        </div>
+
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$95</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-4">
+        <img src="images/perfume-4.jpg" />
+        <div class="product-name">
+          Christian Dior <br />
+          Fahrenheit
+        </div>
+
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$102</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-5">
+        <img src="images/perfume-5.jpg" />
+        <div class="product-name">
+          Tom Ford <br />
+          Grey Vetiver
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$160</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-6">
+        <img src="images/perfume-6.jpg" />
+        <div class="product-name">
+          Prada <br />
+          L’Homme
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$115</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-7">
+        <img src="images/perfume-7.jpg" />
+        <div class="product-name">
+          Hermès Terre <br />
+          d’Hermes
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$225</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-8">
+        <img src="images/perfume-8.jpg" />
+        <div class="product-name">
+          Christian Dior <br />
+          Homme Intense
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$119</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-9">
+        <img src="images/perfume-9.jpg" />
+        <div class="product-name">
+          Giorgio Armani Aqua <br />
+          di Gio Profumo
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>o
+          <div class="price">$165</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-10">
+        <img src="images/perfume-10.jpg" />
+        <div class="product-name">
+          Chanel Bleu de <br />
+          Chanel Eau de
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$145</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-11">
+        <img src="images/perfume-11.jpg" />
+        <div class="product-name">
+          Dolce & Gabbana <br />
+          The One Eau de
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$32</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div>
+      <div class="product" id="item-12">
+        <img src="images/perfume-12.jpg" />
+        <div class="product-name">
+          Mugler A'Men <br />
+          Pure Havane
+        </div>
+        <span class="product-bio">
+          <div class="quantity">
+            <button class="remove-btn">-</button>
+            <input type="number" />
+            <button class="add-btn">+</button>
+          </div>
+          <div class="price">$105</div>
+        </span>
+        <div class="add-to-cart">Add to cart</div>
+      </div> -->
+      <h1 id="no-result" class="hide">No Results 🔎</h1>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

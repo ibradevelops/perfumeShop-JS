@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import "anime";
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+$main-dark-color: #002800;
+$main-light-color: #b3d1b3;
+//
+$main-light-color-nav: rgb(179, 209, 179, 0.75);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  height: inherit;
+  font-family: "Lato", sans-serif;
+}
+//
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: $main-light-color-nav !important;
+}
+
+.hide {
+  display: none !important;
+}

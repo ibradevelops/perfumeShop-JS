@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <script defer src="js/cart.js"></script>
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/cart-queries.css" />
+    <title>Perfume Shop || Cart</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="first__side">
+        <div class="place-for-products"></div>
+        <button id="del-all-btn">Delete all</button>
+      </div>
+      <form class="second__side">
+        <h1 id="total-all"></h1>
+        <div class="form">
+          <span class="title">
+            <h1>Perfume Shop</h1>
+          </span>
+          <span class="first-span">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Surname" />
+          </span>
+          <span class="second-span">
+            <input type="email" placeholder="Email" />
+            <input type="number" placeholder="Phone number" />
+          </span>
+          <input type="text" placeholder="Billing Address" />
+          <button type="submit" id="continue-btn">Continue</button>
+        </div>
+      </form>
+    </div>
+    <div class="spinner hide"></div>
+  </body>
+</html>

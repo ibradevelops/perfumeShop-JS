@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@keyframes scaleIt {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes showIt {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fromRight {
+  animation: fromRight 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fromLeft {
+  animation: fromLeft 1s;
+  animation-fill-mode: backwards;
+}
+
+.blured {
+  filter: blur(1rem);
+}
+
+.bluredAnimation {
+  animation: bluredAnimation 1s;
+}
+
+@keyframes bluredAnimation {
+  0% {
+    filter: blur(1.6rem);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+.fromBottom {
+  animation: fromBottom 1s;
+}
+
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.testimonial-anime-left {
+  animation: testimonialAnimeLeft 1s;
+}
+
+.testimonial-anime-right {
+  animation: testimonialAnimeRight 1s;
+}
+
+@keyframes testimonialAnimeLeft {
+  0% {
+    transform: translateX(30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes testimonialAnimeRight {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.testimonialSectionAnimation {
+  animation: testimonialSecAnime 1s;
+}
+
+@keyframes testimonialSecAnime {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+.dot-animation {
+  animation: dotAnime 1s;
+}
+
+@keyframes dotAnime {
+  0% {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes spinnerAnime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes testAn {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(-5rem);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  font-family: "Lato", sans-serif;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(179, 209, 179, 0.75) !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+body {
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #002800;
+}
+.hero a {
+  color: #b3d1b3;
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+.hero h1 {
+  font-size: 6.2rem;
+  color: #b3d1b3;
+}
+.hero #current-date {
+  font-size: 3.2rem;
+  color: #b3d1b3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+}
+.main .first__side,
+.main .second__side {
+  flex-basis: 50%;
+}
+.main .first__side .map-location {
+  border: 0.1rem solid #002800;
+  height: 64rem;
+  width: 100%;
+}
+.main .second__side {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+}
+.main .second__side .first-list {
+  display: flex;
+  gap: 4rem;
+  list-style-type: none;
+}
+.main .second__side .first-list li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 1rem;
+  color: black;
+  font-size: 2.2rem;
+}
+.main .second__side .second-list {
+  display: flex;
+  list-style-type: none;
+  gap: 6rem;
+}
+.main .second__side .second-list li {
+  transition: all 0.3s ease;
+}
+.main .second__side .second-list li:hover {
+  transform: translateY(-1.2rem);
+}
+.main .second__side .second-list li a img {
+  height: 6rem;
+  width: auto;
+}/*# sourceMappingURL=contact.css.map */

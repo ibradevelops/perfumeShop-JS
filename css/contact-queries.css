@@ -1,0 +1,30 @@
+@media (max-width: 1300px) {
+  .main .second__side {
+    align-items: flex-start !important;
+    margin-left: 4rem !important;
+  }
+}
+@media (max-width: 1030px) {
+  body {
+    overflow: auto;
+  }
+  .main {
+    flex-direction: column-reverse !important;
+    height: 150% !important;
+  }
+  .main .second__side {
+    margin-left: 0 !important;
+    align-items: center !important;
+    gap: 6rem !important;
+  }
+}
+@media (max-width: 620px) {
+  .hero {
+    height: 40% !important;
+    flex-direction: column !important;
+  }
+  .second__side .first-list {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}/*# sourceMappingURL=contact-queries.css.map */

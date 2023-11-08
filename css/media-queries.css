@@ -1,0 +1,177 @@
+@media (max-width: 1350px) {
+  .search__bar .sorting-items {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+  .search__bar .sorting-items button {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1350px) and (max-width: 1100px) {
+  .sorting-items {
+    font-size: 3.2rem !important;
+  }
+  .sorting-items p {
+    font-size: 3.2rem !important;
+  }
+  .sorting-items select {
+    font-size: 2rem !important;
+  }
+  .sorting-items .sort-btn {
+    font-size: 2.6rem !important;
+  }
+  .flex {
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+  }
+  .flex label {
+    font-size: 3.2rem !important;
+  }
+  .flex input {
+    font-size: 3.2rem !important;
+    height: 6rem !important;
+  }
+}
+@media (max-width: 1000px) {
+  .hero a {
+    font-size: 2.6rem !important;
+  }
+  .search__bar {
+    flex-direction: column-reverse !important;
+    gap: 8rem !important;
+  }
+  .search__bar .sorting-items {
+    margin-left: 0;
+    gap: 4rem !important;
+  }
+  .search__bar .sorting-items p {
+    font-size: 4.2rem !important;
+  }
+  .search__bar .sorting-items select {
+    font-size: 3.2rem !important;
+  }
+  .search__bar .sorting-items button {
+    font-size: 3.2rem !important;
+  }
+  .search__bar .flex {
+    gap: 2.6rem !important;
+  }
+  .search__bar .flex label {
+    font-size: 4.2rem !important;
+    margin-right: 0;
+  }
+  .search__bar .flex input {
+    min-width: 100% !important;
+  }
+  .product__list {
+    row-gap: 8rem;
+    margin-top: 10rem !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .product__list #no-result {
+    grid-column: 1/2 !important;
+  }
+}
+@media (max-width: 720px) {
+  .hero {
+    flex-direction: column !important;
+    padding: 12rem !important;
+    gap: 2rem !important;
+  }
+  .hero h1 {
+    font-size: 4.6rem;
+  }
+  .product__list {
+    grid-template-columns: 1fr !important;
+  }
+  .product__list .product {
+    gap: 4rem !important;
+  }
+  .product__list .product .add-to-cart {
+    font-size: 3.6rem;
+  }
+  .product__list .product img {
+    height: 40rem !important;
+  }
+  .product__list .product .product-name {
+    font-size: 4.8rem !important;
+  }
+  .product__list .product .product-bio .price {
+    font-size: 3.2rem !important;
+  }
+  .product__list .product .product-bio .quantity {
+    flex-direction: column !important;
+    gap: 3rem !important;
+  }
+  .product__list .product .product-bio .quantity .remove-btn {
+    order: 3 !important;
+    width: 100% !important;
+    height: 6rem !important;
+    font-size: 3.2rem !important;
+  }
+  .product__list .product .product-bio .quantity .add-btn {
+    order: 2 !important;
+    width: 100% !important;
+    height: 6rem !important;
+    font-size: 3.2rem !important;
+  }
+  .product__list .product .product-bio .quantity input {
+    order: 3 !important;
+    width: 100% !important;
+    height: 6rem !important;
+    font-size: 2.6rem !important;
+  }
+  .search__bar input {
+    width: 40rem !important;
+  }
+}
+@media (max-width: 520px) {
+  .hero {
+    text-align: center !important;
+  }
+  .hero h1 {
+    font-size: 3.2rem !important;
+  }
+  .hero a {
+    font-size: 2.2rem !important;
+  }
+  .search__bar .sorting-items p {
+    font-size: 2.8rem !important;
+  }
+  .search__bar .sorting-items .sort-btn,
+  .search__bar .sorting-items select {
+    font-size: 2.6rem !important;
+  }
+  .search__bar #search-input {
+    width: 30rem !important;
+  }
+  .search__bar .flex label {
+    font-size: 2.8rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .product__list {
+    margin-top: 0 !important;
+  }
+  .product__list #no-result {
+    font-size: 3rem !important;
+  }
+  .product__list .product img {
+    height: 30rem !important;
+  }
+  .product__list .product .product-name {
+    font-size: 3.2rem !important;
+  }
+  .product__list .product .product-bio .quantity {
+    width: 60% !important;
+  }
+}
+@media (max-width: 380px) {
+  .product__list .product {
+    width: 80% !important;
+  }
+  .search__bar .sorting-items select {
+    font-size: 2rem !important;
+  }
+}/*# sourceMappingURL=media-queries.css.map */

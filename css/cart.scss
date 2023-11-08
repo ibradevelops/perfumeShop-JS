@@ -1,0 +1,195 @@
+@import "global";
+body {
+  background-color: whitesmoke;
+}
+.hero {
+  padding: 4rem;
+  height: inherit;
+  display: flex;
+  gap: 2rem;
+  .first__side,
+  .second__side {
+    flex-basis: 50%;
+  }
+  .second__side {
+    #total-all {
+      text-align: center;
+      font-size: 3.2rem;
+      color: $main-dark-color;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    .form {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6rem;
+      .first-span,
+      .second-span {
+        gap: 2rem;
+        display: flex;
+        justify-content: space-around;
+      }
+      .title {
+        h1 {
+          text-align: center;
+          font-size: 6.2rem;
+          color: $main-dark-color;
+          &::first-letter {
+            color: $main-light-color;
+          }
+        }
+      }
+    }
+    input,
+    button {
+      font-size: 2.2rem;
+      padding: 0.4rem;
+      outline: none;
+      background-color: transparent;
+      border: 0.1rem solid gray;
+      color: $main-dark-color;
+      transition: all 0.1s ease;
+    }
+    input {
+      &:focus {
+        outline: 0.6rem solid $main-light-color;
+        border-radius: 0.6rem;
+      }
+    }
+    button {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: $main-dark-color;
+        color: white;
+      }
+    }
+  }
+  .first__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    .place-for-products {
+      padding: 4rem;
+      max-height: 80vh;
+      overflow-y: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem;
+      .product-cart-item {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+        padding: 1rem;
+        color: $main-dark-color;
+        border: 0.2rem solid $main-dark-color;
+        img {
+          height: 20rem;
+          width: auto;
+        }
+        .product-cart-name {
+          font-size: 2.2rem;
+          text-align: center;
+        }
+        span {
+          display: flex;
+          justify-content: space-around;
+          .product-cart-price,
+          .product-cart-quantity {
+            font-size: 1.8rem;
+          }
+        }
+        .product-cart-item-total {
+          text-align: center;
+          font-size: 2rem;
+          text-transform: capitalize;
+        }
+        .product-cart-del-btn {
+          font-size: 2rem;
+          text-transform: capitalize;
+          cursor: pointer;
+          color: $main-dark-color;
+          border: 0.1rem solid $main-dark-color;
+          background-color: transparent;
+          transition: 0.3s;
+          padding: 0.4rem;
+
+          &:hover,
+          &:active {
+            background-color: $main-light-color;
+          }
+        }
+      }
+    }
+    button {
+      min-width: 100%;
+      padding-block: 1rem;
+      font-size: 2.6rem;
+      background-color: white;
+      color: $main-light-color;
+      background-color: $main-dark-color;
+      font-weight: 600;
+      text-transform: capitalize;
+      border: none;
+      border-top: 0.3rem solid $main-light-color;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover,
+      &:active {
+        background-color: transparent;
+        color: $main-dark-color;
+      }
+    }
+  }
+}
+//
+.hero-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  .thank-user {
+    font-size: 3.2rem;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .btn-styling {
+    cursor: pointer;
+    font-size: 2.6rem;
+    border: 0.3rem solid $main-light-color;
+    padding: 1rem;
+    background-color: $main-dark-color;
+    color: $main-light-color;
+    transition: 0.3s;
+    &:hover,
+    &:active {
+      border: 0.3rem solid $main-dark-color;
+
+      color: $main-dark-color;
+      background-color: $main-light-color;
+    }
+  }
+}
+
+.spinner {
+  background: transparent;
+  width: 15rem;
+  height: 15rem;
+  border: 0.8rem solid #007fff;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 50rem;
+  animation: spinnerAnime 1s linear infinite;
+}
+
+.center-spinner {
+  display: grid;
+  place-content: center;
+}

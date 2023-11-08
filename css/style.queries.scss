@@ -1,0 +1,104 @@
+@media (max-width: 1380px) {
+  .first-side__first-section,
+  .first-side__second-section {
+    &::before {
+      display: none !important;
+    }
+  }
+  .faq__section {
+    margin-top: 0 !important ;
+  }
+}
+@media (max-width: 1100px) {
+  .first__section,
+  .second__section {
+    flex-direction: column-reverse !important;
+    margin-bottom: 15rem !important;
+    gap: 4rem !important;
+    .second-side__first-section,
+    .second-side__second-section {
+      gap: 1rem !important;
+      text-align: center !important;
+    }
+  }
+  .second__section {
+    margin-bottom: 5rem !important;
+  }
+}
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 4.8rem !important;
+  }
+  .info-header {
+    h1 {
+      font-size: 2.6rem !important;
+    }
+  }
+  .gallery__section {
+    grid-template-columns: repeat(2, 1fr) !important;
+    .home-gallery-img {
+      grid-row: initial !important;
+      grid-column: initial !important;
+      height: 40rem !important;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    .title {
+      font-size: 4.2rem !important;
+    }
+    .nav__bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      ul {
+        display: none !important;
+      }
+      .hamburger-menu,
+      .nav-icon {
+        display: initial !important;
+      }
+    }
+  }
+  .faq__section {
+    margin-bottom: 15rem !important;
+  }
+  .faq__section,
+  .testimonials__section {
+    height: 70% !important;
+  }
+  .gallery__section {
+    grid-template-columns: 1fr !important;
+  }
+  .info-header h1 {
+    font-size: 2rem !important;
+  }
+  .actual-info {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .icon {
+    font-size: 2.2rem !important;
+  }
+  .first__section,
+  .second__section {
+    img {
+      width: 30rem !important;
+      height: auto !important;
+    }
+    h1 {
+      font-size: 4rem !important;
+    }
+    p {
+      font-size: 1.6rem !important;
+    }
+  }
+  .testimonial h1 {
+    font-size: 3.2rem !important;
+  }
+}
