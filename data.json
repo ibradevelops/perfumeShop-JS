@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2",
+    "productImgObj": "../images/perfume-2.jpg",
+    "productNameObj": "Yves Saint Laurent Kouros",
+    "productPriceObj": "20"
+  },
+  {
+    "id": "3",
+    "productImgObj": "../images/perfume-3.jpg",
+    "productNameObj": "Guerlain Habit Rouge",
+    "productPriceObj": "95"
+  },
+  {
+    "id": "4",
+    "productImgObj": "../images/perfume-4.jpg",
+    "productNameObj": "Christian Dior Fahrenheit",
+    "productPriceObj": "102"
+  },
+  {
+    "id": "5",
+    "productImgObj": "../images/perfume-5.jpg",
+    "productNameObj": "Tom Ford Grey Vetiver",
+    "productPriceObj": "160"
+  },
+  {
+    "id": "7",
+    "productImgObj": "../images/perfume-7.jpg",
+    "productNameObj": "Hermès Terre d’Hermes",
+    "productPriceObj": "225"
+  },
+  {
+    "id": "8",
+    "productImgObj": "../images/perfume-8.jpg",
+    "productNameObj": "Christian Dior Homme Intense",
+    "productPriceObj": "119"
+  },
+  {
+    "id": "9",
+    "productImgObj": "../images/perfume-9.jpg",
+    "productNameObj": "Giorgio Armani Aqua di Gio Profumo",
+    "productPriceObj": "165"
+  },
+  {
+    "id": "10",
+    "productImgObj": "../images/perfume-10.jpg",
+    "productNameObj": "Chanel Bleu de Chanel Eau de",
+    "productPriceObj": "145"
+  },
+  {
+    "id": "12",
+    "productImgObj": "../images/perfume-12.jpg",
+    "productNameObj": "Mugler A'Men Pure Havane",
+    "productPriceObj": "105"
+  },
+  {
+    "id": "1",
+    "productImgObj": "../images/perfume-1.jpg",
+    "productNameObj": "Christian Dior Eau Sauvage",
+    "productPriceObj": "58"
+  },
+  {
+    "id": "6",
+    "productImgObj": "../images/perfume-6.jpg",
+    "productNameObj": "Prada L’ Homme",
+    "productPriceObj": "115"
+  },
+  {
+    "id": "11",
+    "productImgObj": "../images/perfume-11.jpg",
+    "productNameObj": "Dolce & Gabbana The One",
+    "productPriceObj": "32"
+  }
+]
